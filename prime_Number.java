@@ -1,5 +1,7 @@
-package company;
+//package company;
 import java.util.Scanner;
+
+import javax.sql.rowset.spi.SyncResolver;
 
 public class prime_Number {
     public static void main(String[] args) {
@@ -17,6 +19,11 @@ public class prime_Number {
             System.out.println(num +" is the prime number ");
         }
         else System.out.println( num + " is not the prime number ");
-    }
+        
+        System.out.println("adding some changes to git repositiry ");
 
+    }
+    
+
+   
 }
